@@ -1,0 +1,234 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 20px 20px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #cffcf1,
+      #cffcf1,
+      #defafe
+    );
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 30px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.responsive-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-timer-container {
+    flex-direction: row;
+    max-width: 1140px;
+  }
+}
+
+.show-timer-limit-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .show-timer-limit-container {
+    width: 550px;
+    height: 450px;
+  }
+}
+
+.display-timer {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .display-timer {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.timer-limit-value {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 900;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .timer-limit-value {
+    font-size: 35px;
+  }
+}
+
+.timer-limit-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .timer-limit-text {
+    font-size: 20px;
+  }
+}
+
+.timer-controller-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.start-pause-reset-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.play-pause-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .play-pause-image {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.start-pause-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .start-pause-text {
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+
+.timer-limit-controller-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .timer-title {
+    font-size: 20px;
+  }
+}
+
+.timer-limit-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.increase-decrease-button {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #0f172a;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .increase-decrease-button {
+    font-size: 50px;
+  }
+}
+
+.timer-limit-container {
+  height: 50px;
+  width: 80px;
+  background-image: linear-gradient(to right, #73e99a, #00d9f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .timer-limit-container {
+    height: 60px;
+    width: 100px;
+  }
+}
+
+.set-timer {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .set-timer {
+    font-size: 30px;
+  }
+}
